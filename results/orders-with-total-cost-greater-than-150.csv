@@ -1,0 +1,4 @@
+customer_id,full_name,order_id,total_cost,menu_name,menu_category
+20,"Teresa Nguyen",20,155.00,"Soup of the Day",Starter
+9,"Isabel Garcia",9,200.00,"Lamb Chops",Course
+11,"Karen Lopez",11,220.00,Bruschetta,Starter

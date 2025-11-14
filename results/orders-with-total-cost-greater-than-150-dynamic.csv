@@ -1,0 +1,7 @@
+customer_id,full_name,order_id,calculated_total_cost,menu_name,menu_category
+19,"Samuel Clark",19,160.00,"Chicken Curry",Course
+20,"Teresa Nguyen",20,200.00,"Soup of the Day",Starter
+4,"Diego Fernandez",4,300.00,"Beef Steak",Course
+16,"Paula Santos",16,440.00,"Grilled Salmon",Course
+2,"Bruno Silva",2,660.00,"Grilled Salmon",Course
+9,"Isabel Garcia",9,750.00,"Lamb Chops",Course

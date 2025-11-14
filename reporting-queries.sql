@@ -21,7 +21,7 @@ SELECT
 FROM customers c
 JOIN orders o 
     ON c.customer_id = o.customer_id
-JOIN Order_Menu om 
+JOIN order_menu om 
     ON o.order_id = om.order_id
 JOIN menu m 
     ON om.menu_item_id = m.menu_item_id
@@ -34,7 +34,7 @@ SELECT
     c.customer_id,
     CONCAT(c.first_name, ' ', c.last_name) AS full_name,
     o.order_id,
-    SUM(m.price * om.quantity) AS calculated_total_cost,
+    SUM(m.price * o.quantity) AS calculated_total_cost,
     m.item_name AS menu_name,
     m.category AS menu_category
 FROM customers c
@@ -46,7 +46,7 @@ JOIN menu m
     ON om.menu_item_id = m.menu_item_id
 WHERE m.category IN ('Course', 'Starter')
 GROUP BY c.customer_id, full_name, o.order_id, m.item_name, m.category
-HAVING SUM(m.price * om.quantity) > 150
+HAVING SUM(m.price * o.quantity) > 150
 ORDER BY calculated_total_cost ASC;
 
 -- Query with subquery for getting menu items for which more than 2 orders have been placed
@@ -70,4 +70,16 @@ JOIN order_menu om
 GROUP BY m.item_name
 HAVING SUM(om.quantity) > 2
 ORDER BY total_quantity ASC;
+
+-- Aggregate demand using Orders.quantity
+SELECT m.item_name, SUM(o.quantity) AS total_quantity
+FROM menu m
+JOIN order_menu om 
+    ON m.menu_item_id = om.menu_item_id
+JOIN orders o
+    ON om.order_id = o.order_id
+GROUP BY m.item_name
+HAVING SUM(o.quantity) > 2
+ORDER BY total_quantity ASC;
+
 
