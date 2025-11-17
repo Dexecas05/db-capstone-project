@@ -1,0 +1,21 @@
+menu_item_id,item_name,category,price
+1,Margherita Pizza,Cuisine,5.0
+2,Caesar Salad,Starter,18.5
+3,Grilled Salmon,Course,220.0
+4,Red Wine,Drink,120.0
+5,Chocolate Cake,Dessert,27.0
+6,Spaghetti Carbonara,Cuisine,65.0
+7,Bruschetta,Starter,6.5
+8,Beef Steak,Course,75.0
+9,White Wine,Drink,110.0
+10,Tiramisu,Dessert,8.0
+11,Lasagna,Cuisine,65.0
+12,Garlic Bread,Starter,5.0
+13,Chicken Curry,Course,80.0
+14,Beer,Drink,6.0
+15,Ice Cream,Dessert,15.5
+16,Risotto,Cuisine,21.0
+17,Soup of the Day,Starter,50.0
+18,Lamb Chops,Course,250.0
+19,Cocktail,Drink,10.0
+20,Cheesecake,Dessert,7.5

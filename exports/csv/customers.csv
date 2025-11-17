@@ -1,0 +1,21 @@
+customer_id,first_name,last_name,phone,email,address
+1,Alice,Johnson,555-1001,alice.johnson@example.com,123 Maple Street
+2,Bruno,Silva,555-1002,bruno.silva@example.com,456 Oak Avenue
+3,Carla,Mendes,555-1003,carla.mendes@example.com,789 Pine Road
+4,Diego,Fernandez,555-1004,diego.fernandez@example.com,321 Birch Lane
+5,Eva,Martinez,555-1005,eva.martinez@example.com,654 Cedar Blvd
+6,Felipe,Costa,555-1006,felipe.costa@example.com,987 Walnut Drive
+7,Grace,Lee,555-1007,grace.lee@example.com,741 Cherry Street
+8,Henry,Brown,555-1008,henry.brown@example.com,852 Spruce Court
+9,Isabel,Garcia,555-1009,isabel.garcia@example.com,963 Palm Road
+10,Jack,Wilson,555-1010,jack.wilson@example.com,159 Elm Street
+11,Karen,Lopez,555-1011,karen.lopez@example.com,753 Fir Avenue
+12,Luis,Torres,555-1012,luis.torres@example.com,357 Cypress Lane
+13,Marta,Ramos,555-1013,marta.ramos@example.com,951 Poplar Drive
+14,Nina,Hughes,555-1014,nina.hughes@example.com,258 Willow Street
+15,Oscar,Diaz,555-1015,oscar.diaz@example.com,654 Redwood Blvd
+16,Paula,Santos,555-1016,paula.santos@example.com,852 Magnolia Court
+17,Quentin,Taylor,555-1017,quentin.taylor@example.com,753 Ash Avenue
+18,Rosa,Almeida,555-1018,rosa.almeida@example.com,357 Olive Lane
+19,Samuel,Clark,555-1019,samuel.clark@example.com,951 Palm Drive
+20,Teresa,Nguyen,555-1020,teresa.nguyen@example.com,258 Birch Street
