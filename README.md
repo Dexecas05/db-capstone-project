@@ -132,9 +132,9 @@ Set the following for privacy/security:
 
 Here are some previews of the dashboard:
 
-![Orig Dashboard Screenshot](exports\visualizations\orig-dashboard.png)
+![Orig Dashboard Screenshot](https://github.com/Dexecas05/db-capstone-project/blob/main/exports/visualizations/filtered-dashboard.png)
 
-![Filtered Dashboard Screenshot](exports\visualizations\filtered-dashboard.png)
+![Filtered Dashboard Screenshot](https://github.com/Dexecas05/db-capstone-project/blob/main/exports/visualizations/filtered-dashboard.png)
 
 👉 Explore the interactive version on [Tableau Public](https://public.tableau.com/views/LittleLemonRestaurant-top10customerspreferences/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
 
