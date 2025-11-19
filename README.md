@@ -132,7 +132,7 @@ Set the following for privacy/security:
 
 Here are some previews of the dashboard:
 
-![Orig Dashboard Screenshot](https://github.com/Dexecas05/db-capstone-project/blob/main/exports/visualizations/filtered-dashboard.png)
+![Orig Dashboard Screenshot](https://github.com/Dexecas05/db-capstone-project/blob/main/exports/visualizations/orig-dashboard.png)
 
 ![Filtered Dashboard Screenshot](https://github.com/Dexecas05/db-capstone-project/blob/main/exports/visualizations/filtered-dashboard.png)
 
