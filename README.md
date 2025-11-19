@@ -41,7 +41,8 @@ db-capstone-project/
   │   ├── python/              # Python scripts for ETL and queries
   │   │   ├── etl-simulation.py
   │   │   └── query-customers-over-60.py
-  │   └── SQL/                 # SQL scripts for schema, inserts, reports
+  │   └── SQL/                 # SQL scripts for schema, inserts, reports, SP
+  │   │   └── procedures/
   ├── results/                 # Query outputs for reporting
   └── exports/                 # ETL outputs for Tableau
       ├── csv/
@@ -54,8 +55,8 @@ db-capstone-project/
 ## 🛠 Setup Instructions
 
 ### Prerequisites
-- **MySQL Server** (with Workbench recommended)
-- **Python 3.10+**
+- **MySQL Server 8.0.0** (with Workbench recommended)
+- **Python 3.12.x**
 - **Tableau Public Desktop**
 - **Git/GitHub** for version control
 
@@ -70,7 +71,7 @@ Set the following for privacy/security:
 - `LittleLemonHost` → database host (e.g., `localhost`)
 - `LittleLemonUsername` → MySQL username
 - `LittleLemonPassword` → MySQL password
-- `LittleLemon-outputdir` → path for exports (e.g., `D:\Xequi 2024\Coursera\Meta-database-engineer\exports`)
+- `LittleLemon-outputdir` → path for exports (e.g., `D:\user\2025\projects\Meta-database-engineer\exports`)
 
 ---
 
@@ -79,8 +80,8 @@ Set the following for privacy/security:
 1. **Create the database**  
    Run SQL scripts in `scripts/SQL/` using MySQL Workbench or CLI:
    ```sql
-   source create_schema.sql;
-   source populate_data.sql;
+   source LittleLemonDB.sql;
+   source populate-LittleLemonDB.sql;
    ```
 
 2. **Run ETL simulation**  
